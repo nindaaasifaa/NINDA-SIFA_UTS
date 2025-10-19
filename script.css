@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8faff;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  gap: 80px;
+
+}
+
+.content {
+   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px;
+  width: 80%;
+  max-width: 1100px; 
+}
+
+.perkenalan{
+    flex: 1;
+    text-align: left;
+    max-width: 450px;
+}
+ 
+.perkenalan h2 {
+    font-size: 36px;
+    margin-top: 15px;
+}
+
+.foto {
+    display: flex;
+    justify-content: left;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 55%;
+
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.N { color: #79bdf2; }
+.I { color: #f88dcf; }
+.N2 { color: #9be7b9; }
+.D {color: sandybrown;}
+.A {color: lightcoral;}
+.S {color:darksalmon}
+.I2 {color:plum}
+.F {color: cadetblue}
+.A2 {color: tan}
+.R {color: peachpuff}
+.I3 {color: olive}
+.A3 {color: indianred}
+.D2 {color: blanchedalmond}
+.I4 {color: paleturquoise}
+
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+nav a:hover, .active {
+  color: #79bdf2;
+}
+
+/* Main Section */
+.perkenalan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  margin-right: auto;
+}
+
+.intro {
+  max-width: 500px;
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #79bdf2;
+}
+
+.intro p {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: #79bdf2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #5aaee3;
+}
+
+ 
+.foto img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 500%;
+  border: 10x solid #ffc0bc;
+  box-shadow: 0 0 30px rgba(111, 168, 220, 0.3);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.about {
+  background-color: #f9f5ff; /* warna pastel lembut */
+  padding: 80px 100px;
+  text-align: center;
+  border-top: 3px solid #eac9ff;
+}
+
+.AB {color: #9be7b9;}
+.BA {color: #ffc0bc;}
+.O {color: #eac9ff;}
+.U {color: #79bdf2;}
+.T {color: cadetblue;}
+.M {color: burlywood;}
+.E {color: darkgray;}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  text-align: left;
+}
+
+/* .about-container h3 {
+  font-size: 22px;
+  color: #9b5de5;
+  margin-bottom: 15px;
+} */
+
+.biodata h3{
+   font-size: 22px;
+  color: #9b5de5;
+  margin-bottom: 15px; 
+}
+.biodata ul{
+    color: #ffc0bc;
+}
+.pendidikan h3{
+    font-size: 22px;
+  color: palegreen;
+  margin-bottom: 15px;
+}
+.pendidikan ul{
+    color: darkslategrey;
+}
+
+.minat h3 {
+    font-size: 22px;
+  color: rosybrown;
+  margin-bottom: 15px;
+}
+
+.minat p{
+    color: brown;
+}
+
+.keahlian ul{
+    color:olivedrab ;
+}
+
+.keahlian h3 {
+    font-size: 22px;
+  color: chocolate;
+  margin-bottom: 15px;
+  
+}
+
+
+
+.about-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-container li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.about-container p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.about-container div {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(187, 153, 255, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-container div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(187, 153, 255, 0.25);
+}
+
+
+.portfolio {
+  padding: 60px 80px;
+  background-color: #fefeff;
+}
+
+.P {color: #ffc0bc;}
+.PO {color: #9be7b9;}
+.OR {color: #79bdf2;}
+.TT {color: #9b5de5;}
+.OT {color: aquamarine;}
+.F2 {color: crimson;}
+.OF {color: chocolate;}
+.L {color: darkslateblue;}
+.LI {color: teal;}
+.LO {color: salmon;}
+
+.portofolio h2{
+  text-align: center;
+}
+
+.portofolio p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+
+/* .portofolio p{
+  color: yellowgreen;
+} */
+.project {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(121, 189, 242, 0.15);
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* ---------- CONTACT ---------- */
+.contact {
+  padding: 60px 80px;
+  background-color: #ffffff;
+  margin: 40px 60px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(121, 189, 242, 0.1);
+}
+
+.contact p{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1.5px solid #79bdf2;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #5aaee3;
+  box-shadow: 0 0 5px rgba(121, 189, 242, 0.3);
+}
+
+.contact-form button {
+  background-color: #79bdf2;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #5aaee3;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
